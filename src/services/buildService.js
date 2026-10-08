@@ -310,14 +310,19 @@ class BuildService {
    * @param {string} buildId
    * @param {string} evidenceId
    * @param {string} attestationKeyPassphrase
+   * @param {string} attestationCertificatePem - IBM attestation certificate that signed the records
    * @returns {Promise<Object>}
    */
-  async verifyAttestationEvidence(buildId, evidenceId, attestationKeyPassphrase = '') {
+  async verifyAttestationEvidence(buildId, evidenceId, attestationKeyPassphrase = '', attestationCertificatePem = '') {
     if (!evidenceId) {
       throw new Error('Evidence ID is required for verification.');
     }
+    if (!attestationCertificatePem) {
+      throw new Error('IBM attestation certificate is required for verification.');
+    }
     const response = await apiClient.post(`/builds/${buildId}/attestation/evidence/${evidenceId}/verify`, {
-      attestation_key_passphrase: attestationKeyPassphrase || ''
+      attestation_key_passphrase: attestationKeyPassphrase || '',
+      attestation_certificate_pem: attestationCertificatePem
     });
     return response.data;
   }

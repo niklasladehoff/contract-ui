@@ -61,6 +61,7 @@ const AttestationEvidenceSection = ({ buildId, buildStatus: buildStatusProp, mod
   const [uploadResult, setUploadResult] = useState(null);
   const [verifyResult, setVerifyResult] = useState(null);
   const [attestationKeyPassphrase, setAttestationKeyPassphrase] = useState('');
+  const [attestationCertFile, setAttestationCertFile] = useState(null);
 
   const [uploading, setUploading] = useState(false);
   const [verifying, setVerifying] = useState(false);
@@ -168,15 +169,22 @@ const AttestationEvidenceSection = ({ buildId, buildStatus: buildStatusProp, mod
       return;
     }
 
+    if (!attestationCertFile) {
+      setError('Select the IBM attestation certificate to verify the records signature.');
+      return;
+    }
+
     setVerifying(true);
     setError(null);
     setSuccess(null);
     setVerifyResult(null);
     try {
+      const attestationCertificatePem = await attestationCertFile.text();
       const result = await buildService.verifyAttestationEvidence(
         buildId,
         latestEvidenceId,
-        attestationKeyPassphrase.trim()
+        attestationKeyPassphrase.trim(),
+        attestationCertificatePem
       );
       setVerifyResult(result);
       const verdict = String(result?.verdict || 'UNKNOWN').toUpperCase();
@@ -352,8 +360,20 @@ const AttestationEvidenceSection = ({ buildId, buildStatus: buildStatusProp, mod
               className="workflow-input--password"
               disabled={verifying || !canVerify}
             />
+            <div>
+              <FileUploader
+                labelTitle="IBM attestation certificate"
+                labelDescription="The certificate whose key signed the attestation records (PEM)"
+                buttonLabel="Choose certificate"
+                filenameStatus="edit"
+                accept={['.pem', '.crt', '.cer']}
+                onChange={(e) => setAttestationCertFile(e.target.files?.[0] || null)}
+                disabled={verifying || !canVerify}
+              />
+              {attestationCertFile && <p className="workflow-upload-meta">{attestationCertFile.name}</p>}
+            </div>
             <div className="attestation-evidence-actions">
-              <Button kind="primary" onClick={handleVerify} disabled={verifying || !canVerify}>
+              <Button kind="primary" onClick={handleVerify} disabled={verifying || !canVerify || !attestationCertFile}>
                 {verifying ? 'Verifying...' : 'Verify Attestation Evidence'}
               </Button>
               <Button kind="ghost" renderIcon={Renew} onClick={loadContext} disabled={loadingContext}>
