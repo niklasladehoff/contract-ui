@@ -2,11 +2,11 @@
 
 The overview prioritizes credential issues, groups build/user metrics, and uses readable horizontal role charts. Credential health replaces four nested tabs with credential/status filters, searchable accounts and confirmed bulk actions.
 
-Before: the [heading PR #101](https://github.com/ibm-hyper-protect/contract-ui/pull/101) plus public main `4800b92` (baseline `fdb5cd1`). After: analytics commit `6a35dcb` on `fix/analytics-dashboard-carbon`. This follow-up depends on the shared header from #101 and has no multi-key backend dependency.
+Before: public main `4800b929ddb4c79705b6593fdda5b2bafb50ddd2`. After: [Analytics commit `04c075e`](https://github.com/niklasladehoff/contract-ui/commit/04c075ee4252b17fafd76f851d81bc09bb0ef18c) on `fix/analytics-dashboard-isolated`. This is one commit directly on public main, changing six Analytics files. It has no dependency on the page-heading or multi-key PRs. Related: [issue #102](https://github.com/ibm-hyper-protect/contract-ui/issues/102).
 
 Actual React/Carbon views with identical example accounts and mocked API responses, captured at a 1600 × 1100 viewport. The scrollable content area is expanded equally in both versions so full charts and legends are visible. No real central account data is shown, and credential operations were tested only against mocks.
 
-Local validation passes: production build, nine credential expiry tests, 13 browser behavior/state checks, and 16 responsive/theme combinations. The API services, auth stores, IPC and main-process code are unchanged.
+Local validation passes: production build, nine credential expiry tests, 13 browser behavior/state checks, and 16 responsive/theme combinations. Global heading styles, other pages, API services, auth stores, IPC, main-process code and dependencies match public main exactly.
 
 ## Analytics overview
 
