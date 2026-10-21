@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "Screenshot counts and status shares match 16 builds, with four real creators",
+    "Table search preserves the overview scope of all available builds",
+    "Build details callback and create-dialog cancellation still work without mutations",
+    "Refresh updates every statistic from the replacement build snapshot",
+    "Normalized, legacy and unknown stages are retained; finalized builds stay active until download",
+    "Missing creator data is disclosed without inventing an extra creator",
+    "Legacy creator fields deduplicate correctly and terminal builds are not active",
+    "A build without status or creator has a readable fallback and no fabricated creator",
+    "Empty data has an explicit state with finite counts",
+    "Loading uses matching metric placeholders and does not expose stale counts",
+    "Read-only roles retain the overview without gaining create permissions",
+    "Eight window/theme combinations fit, with Carbon typography and horizontal table scrolling"
+  ],
+  "checkedAt": "2026-10-21T18:31:15.432Z"
+}
