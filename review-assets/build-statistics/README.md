@@ -19,7 +19,7 @@ The repository has no configured test runner. Browser verification used an exter
 
 ## Capture notes
 
-Desktop captures use a 1600 × 1100 viewport; the narrow-window example uses 390 × 1100. Only the full-page capture expands the app content scroll area to include the complete build lists. Mixed-stage, empty and loading examples render the actual component directly: Build Management currently shows statistics only after loading and when builds exist. Percentages are rounded independently.
+IBM Plex Sans regular and semibold loaded successfully for the baseline capture. Desktop captures use a 1600 × 1100 viewport; the narrow-window example uses 390 × 1100. Only the full-page capture expands the app content scroll area to include the complete build lists. Mixed-stage, empty and loading examples render the actual component directly: Build Management currently shows statistics only after loading and when builds exist. Percentages are rounded independently.
 
 ## Comparisons
 
