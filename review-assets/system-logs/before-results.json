@@ -1,0 +1,73 @@
+[
+  {
+    "id": "01-overview",
+    "title": "System logs — desktop",
+    "overflow": false,
+    "h1s": 1,
+    "heading": "System logs",
+    "fontsLoaded": true
+  },
+  {
+    "id": "02-dark-overview",
+    "title": "System logs — dark theme",
+    "theme": "g100",
+    "overflow": false,
+    "h1s": 1,
+    "heading": "System logs",
+    "fontsLoaded": true
+  },
+  {
+    "id": "03-event-details",
+    "title": "Event details — inline before, expanded after",
+    "expanded": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "System logs",
+    "fontsLoaded": true
+  },
+  {
+    "id": "04-mobile",
+    "title": "System logs — narrow window",
+    "width": 390,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "System logs",
+    "fontsLoaded": true
+  },
+  {
+    "id": "05-no-matches",
+    "title": "System logs — no matching events",
+    "search": "unmatched-query-example",
+    "overflow": false,
+    "h1s": 1,
+    "heading": "System logs",
+    "fontsLoaded": true
+  },
+  {
+    "id": "06-empty",
+    "title": "System logs — empty state",
+    "empty": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "System logs",
+    "fontsLoaded": true
+  },
+  {
+    "id": "07-refresh-failure",
+    "title": "System logs — failed refresh",
+    "refreshFailure": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "System logs",
+    "fontsLoaded": true
+  },
+  {
+    "id": "08-loading",
+    "title": "System logs — loading state",
+    "loading": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "System logs",
+    "fontsLoaded": true
+  }
+]

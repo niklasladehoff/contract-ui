@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Search from page two resets pagination; full hidden details are searchable",
+    "passed": true
+  },
+  {
+    "name": "Outcome filter includes unknown outcomes and combines with search",
+    "passed": true
+  },
+  {
+    "name": "Expanded details expose complete event context and collapse",
+    "passed": true
+  },
+  {
+    "name": "Real CSV download includes all filtered rows and preserves raw details/timestamps",
+    "passed": true
+  },
+  {
+    "name": "Structured details, zero, false, and formula-looking values render/search/export correctly",
+    "passed": true
+  },
+  {
+    "name": "Unavailable user directory and missing actor retain usable audit rows",
+    "passed": true
+  },
+  {
+    "name": "Failed refresh retains existing rows; Retry recovers",
+    "passed": true
+  },
+  {
+    "name": "Refresh clamps the current page after the loaded snapshot shrinks",
+    "passed": true
+  },
+  {
+    "name": "Refresh preserves a selected unknown outcome and safely replaces event IDs",
+    "passed": true
+  },
+  {
+    "name": "Initial load failure has Retry and recovers",
+    "passed": true
+  },
+  {
+    "name": "Empty and no-matching states disable export and expose recovery",
+    "passed": true
+  },
+  {
+    "name": "Loading state has a single PageHeader and disabled refresh",
+    "passed": true
+  },
+  {
+    "name": "white at 390px has one PageHeader and no document overflow",
+    "passed": true
+  },
+  {
+    "name": "white at 768px has one PageHeader and no document overflow",
+    "passed": true
+  },
+  {
+    "name": "white at 900px has one PageHeader and no document overflow",
+    "passed": true
+  },
+  {
+    "name": "white at 1600px has one PageHeader and no document overflow",
+    "passed": true
+  },
+  {
+    "name": "g100 at 390px has one PageHeader and no document overflow",
+    "passed": true
+  },
+  {
+    "name": "g100 at 768px has one PageHeader and no document overflow",
+    "passed": true
+  },
+  {
+    "name": "g100 at 900px has one PageHeader and no document overflow",
+    "passed": true
+  },
+  {
+    "name": "g100 at 1600px has one PageHeader and no document overflow",
+    "passed": true
+  }
+]
