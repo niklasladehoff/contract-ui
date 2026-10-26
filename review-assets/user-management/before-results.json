@@ -1,0 +1,100 @@
+[
+  {
+    "id": "01-overview",
+    "title": "User management \u2014 desktop",
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "02-dark",
+    "title": "User management \u2014 dark theme",
+    "theme": "g100",
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "03-inactive",
+    "title": "Inactive accounts \u2014 expanded section before, directory filter after",
+    "inactive": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "04-mobile",
+    "title": "User management \u2014 narrow window",
+    "width": 390,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "05-no-matches",
+    "title": "Search \u2014 unavailable before, clear no-match state after",
+    "noMatch": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "06-empty",
+    "title": "User management \u2014 empty directory",
+    "empty": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "07-refresh-error",
+    "title": "User management \u2014 failed refresh",
+    "refreshFailure": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "08-create",
+    "title": "User management \u2014 create user dialog",
+    "create": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "09-edit",
+    "title": "User management \u2014 edit user dialog",
+    "edit": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "10-loading",
+    "title": "User management \u2014 loading state",
+    "loading": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "11-roles",
+    "title": "Six assigned roles \u2014 inline before, on demand after",
+    "rolesOpen": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Default directory shows active accounts, counts, self marker and grouped credentials",
+    "passed": true
+  },
+  {
+    "name": "Search from page three resets pagination and preserves search focus",
+    "passed": true
+  },
+  {
+    "name": "Role and access filters compose with search and all assigned roles",
+    "passed": true
+  },
+  {
+    "name": "Unknown roles remain filterable; accounts without roles remain visible",
+    "passed": true
+  },
+  {
+    "name": "Inactive accounts use the same paginated directory and expose Reactivate",
+    "passed": true
+  },
+  {
+    "name": "Page size changes reset pagination",
+    "passed": true
+  },
+  {
+    "name": "Refresh preserves filters and clamps pages after the snapshot shrinks or replaces IDs",
+    "passed": true
+  },
+  {
+    "name": "Failed refresh retains the directory and filters; Refresh recovers",
+    "passed": true
+  },
+  {
+    "name": "Initial failure Retry recovers",
+    "passed": true
+  },
+  {
+    "name": "Empty/no-match directories have clear recovery and no useless pagination",
+    "passed": true
+  },
+  {
+    "name": "All-inactive directories provide Show all accounts recovery",
+    "passed": true
+  },
+  {
+    "name": "Create dialog validates fields, cancels without mutation and returns focus",
+    "passed": true
+  },
+  {
+    "name": "Create user submits the unchanged signed API payload and refreshes counts",
+    "passed": true
+  },
+  {
+    "name": "Edit user preserves profile and role update requests",
+    "passed": true
+  },
+  {
+    "name": "Deactivation and reactivation keep existing API behavior",
+    "passed": true
+  },
+  {
+    "name": "Password and key confirmation dialogs cancel without mutations",
+    "passed": true
+  },
+  {
+    "name": "Rejected account mutations retain directory data and show an error",
+    "passed": true
+  },
+  {
+    "name": "Loading state disables actions and resolves without React attribute warnings",
+    "passed": true
+  },
+  {
+    "name": "white at 390px contains overflow and preserves accessible headings/headers",
+    "passed": true
+  },
+  {
+    "name": "white at 768px contains overflow and preserves accessible headings/headers",
+    "passed": true
+  },
+  {
+    "name": "white at 900px contains overflow and preserves accessible headings/headers",
+    "passed": true
+  },
+  {
+    "name": "white at 1600px contains overflow and preserves accessible headings/headers",
+    "passed": true
+  },
+  {
+    "name": "g100 at 390px contains overflow and preserves accessible headings/headers",
+    "passed": true
+  },
+  {
+    "name": "g100 at 768px contains overflow and preserves accessible headings/headers",
+    "passed": true
+  },
+  {
+    "name": "g100 at 900px contains overflow and preserves accessible headings/headers",
+    "passed": true
+  },
+  {
+    "name": "g100 at 1600px contains overflow and preserves accessible headings/headers",
+    "passed": true
+  }
+]

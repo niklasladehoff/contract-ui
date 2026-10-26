@@ -1,0 +1,100 @@
+[
+  {
+    "id": "01-overview",
+    "title": "User management — desktop",
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "02-dark",
+    "title": "User management — dark theme",
+    "theme": "g100",
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "03-inactive",
+    "title": "Inactive accounts — expanded section before, directory filter after",
+    "inactive": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "04-mobile",
+    "title": "User management — narrow window",
+    "width": 390,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "05-no-matches",
+    "title": "Search — unavailable before, clear no-match state after",
+    "noMatch": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "06-empty",
+    "title": "User management — empty directory",
+    "empty": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "07-refresh-error",
+    "title": "User management — failed refresh",
+    "refreshFailure": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "08-create",
+    "title": "User management — create user dialog",
+    "create": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "09-edit",
+    "title": "User management — edit user dialog",
+    "edit": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "10-loading",
+    "title": "User management — loading state",
+    "loading": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  },
+  {
+    "id": "11-roles",
+    "title": "Six assigned roles — inline before, on demand after",
+    "rolesOpen": true,
+    "overflow": false,
+    "h1s": 1,
+    "heading": "User management",
+    "fontsLoaded": true
+  }
+]

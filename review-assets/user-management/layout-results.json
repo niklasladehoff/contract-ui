@@ -1,0 +1,74 @@
+[
+  {
+    "theme": "white",
+    "width": 390,
+    "contentWidth": 390,
+    "h1s": 1,
+    "pageHeaders": 1,
+    "tableScrolls": false,
+    "validHeaders": true
+  },
+  {
+    "theme": "white",
+    "width": 768,
+    "contentWidth": 768,
+    "h1s": 1,
+    "pageHeaders": 1,
+    "tableScrolls": false,
+    "validHeaders": true
+  },
+  {
+    "theme": "white",
+    "width": 900,
+    "contentWidth": 900,
+    "h1s": 1,
+    "pageHeaders": 1,
+    "tableScrolls": false,
+    "validHeaders": true
+  },
+  {
+    "theme": "white",
+    "width": 1600,
+    "contentWidth": 1600,
+    "h1s": 1,
+    "pageHeaders": 1,
+    "tableScrolls": false,
+    "validHeaders": true
+  },
+  {
+    "theme": "g100",
+    "width": 390,
+    "contentWidth": 390,
+    "h1s": 1,
+    "pageHeaders": 1,
+    "tableScrolls": false,
+    "validHeaders": true
+  },
+  {
+    "theme": "g100",
+    "width": 768,
+    "contentWidth": 768,
+    "h1s": 1,
+    "pageHeaders": 1,
+    "tableScrolls": false,
+    "validHeaders": true
+  },
+  {
+    "theme": "g100",
+    "width": 900,
+    "contentWidth": 900,
+    "h1s": 1,
+    "pageHeaders": 1,
+    "tableScrolls": false,
+    "validHeaders": true
+  },
+  {
+    "theme": "g100",
+    "width": 1600,
+    "contentWidth": 1600,
+    "h1s": 1,
+    "pageHeaders": 1,
+    "tableScrolls": false,
+    "validHeaders": true
+  }
+]

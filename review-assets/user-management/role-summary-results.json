@@ -1,0 +1,72 @@
+[
+  {
+    "name": "white six-role summary at 390px",
+    "height": 1100,
+    "left": 116,
+    "right": 274.640625,
+    "top": 712.984375,
+    "bottom": 872.890625,
+    "width": 390,
+    "unclipped": true
+  },
+  {
+    "name": "white six-role summary at 900px",
+    "height": 1100,
+    "left": 502,
+    "right": 660.640625,
+    "top": 604.984375,
+    "bottom": 764.890625,
+    "width": 900,
+    "unclipped": true
+  },
+  {
+    "name": "white six-role summary at 1600px",
+    "height": 1100,
+    "left": 672,
+    "right": 830.640625,
+    "top": 556.984375,
+    "bottom": 716.890625,
+    "width": 1600,
+    "unclipped": true
+  },
+  {
+    "name": "g100 six-role summary at 390px",
+    "height": 1100,
+    "left": 116,
+    "right": 274.640625,
+    "top": 712.984375,
+    "bottom": 872.890625,
+    "width": 390,
+    "unclipped": true
+  },
+  {
+    "name": "g100 six-role summary at 900px",
+    "height": 1100,
+    "left": 534,
+    "right": 692.640625,
+    "top": 604.984375,
+    "bottom": 764.890625,
+    "width": 900,
+    "unclipped": true
+  },
+  {
+    "name": "g100 six-role summary at 1600px",
+    "height": 1100,
+    "left": 672,
+    "right": 830.640625,
+    "top": 556.984375,
+    "bottom": 716.890625,
+    "width": 1600,
+    "unclipped": true
+  },
+  {
+    "name": "Inactive account keeps all roles discoverable",
+    "height": 1100,
+    "left": 672,
+    "right": 830.640625,
+    "top": 556.984375,
+    "bottom": 716.890625,
+    "width": 1600,
+    "unclipped": true
+  }
+]
