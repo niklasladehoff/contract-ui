@@ -1,0 +1,11 @@
+{
+  "base": "3b68396284e7f65ab51f405a3838639d91b97b26",
+  "head": "30f2b85d83f66908c9cd9d5c2aa8861f4b8ec17c",
+  "files": [
+    "src/components/BuildStatistics.jsx",
+    "src/index.scss",
+    "src/styles/build-statistics.scss"
+  ],
+  "oneCommitOnPublicMain": true,
+  "sharedHeadingsAndOtherStylesPreserved": true
+}
