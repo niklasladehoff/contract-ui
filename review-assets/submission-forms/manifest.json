@@ -1,0 +1,185 @@
+{
+  "baseCommit": "ba21271970bcf4ca3d7399d0855a0dc8253a8c12",
+  "implementationCommit": "e87ff32790e484930a11e12ef353fa75798f594d",
+  "capturedOn": "2026-10-28",
+  "cases": [
+    {
+      "id": "workload",
+      "title": "Add workload \u2014 empty form"
+    },
+    {
+      "id": "environment",
+      "title": "Add environment \u2014 empty form",
+      "role": "DATA_OWNER"
+    },
+    {
+      "id": "ready",
+      "title": "Workload \u2014 YAML and custom certificate ready",
+      "setup": "ready"
+    },
+    {
+      "id": "review",
+      "title": "Workload \u2014 final review",
+      "setup": "review"
+    },
+    {
+      "id": "editor",
+      "title": "Environment \u2014 template editor",
+      "role": "DATA_OWNER",
+      "setup": "editor"
+    },
+    {
+      "id": "builtin",
+      "title": "Environment \u2014 built-in certificate",
+      "role": "DATA_OWNER",
+      "setup": "builtin"
+    },
+    {
+      "id": "submitted",
+      "title": "Environment \u2014 submitted section",
+      "role": "DATA_OWNER",
+      "status": "ENVIRONMENT_STAGED",
+      "submitted": true
+    },
+    {
+      "id": "waiting",
+      "title": "Workload \u2014 waiting for signing key",
+      "status": "CREATED"
+    },
+    {
+      "id": "dark",
+      "title": "Environment \u2014 dark theme",
+      "role": "DATA_OWNER",
+      "theme": "g100",
+      "setup": "ready"
+    },
+    {
+      "id": "compact",
+      "title": "Workload \u2014 compact window (1024px)",
+      "width": 1024,
+      "height": 1150
+    }
+  ],
+  "images": {
+    "before/workload.png": {
+      "sha256": "ef6bbe13f357f325837551f2704de204903df5ddecea69a9d43d7c82fc093b75",
+      "bytes": 60385
+    },
+    "before/environment.png": {
+      "sha256": "0dfd31fdbea6c5ec2467ac3de91688043d27877428d00b2ce5ea308125e96581",
+      "bytes": 59047
+    },
+    "before/ready.png": {
+      "sha256": "8c6f7617e306a8d76f50e764b03e5564bb5e66c2f7f014f7a4f7b9f144eff9eb",
+      "bytes": 85230
+    },
+    "before/review.png": {
+      "sha256": "da66bf50b02760250d0b8b192f5b9bdbda4b1639bb8cabc397d1a239d60af4dd",
+      "bytes": 23130
+    },
+    "before/editor.png": {
+      "sha256": "503f82f4b93c22c1a70c7921f61ec872ae00cd57388357ecdb50ec88c19aa6cd",
+      "bytes": 24292
+    },
+    "before/builtin.png": {
+      "sha256": "f4509a36eebd538f2bea10e3090f22792fc873f076738d08666f3068ac8153de",
+      "bytes": 68589
+    },
+    "before/submitted.png": {
+      "sha256": "a3b4d37dfb421835676f362f8c29d0917e2b5a3d223caa5473f49da3b04a04bf",
+      "bytes": 78234
+    },
+    "before/waiting.png": {
+      "sha256": "9ca3d277c4be97d78738e47c818e11763da339afcbbe049367d7c4084c0ba8cc",
+      "bytes": 66932
+    },
+    "before/dark.png": {
+      "sha256": "04cba1854ca9766c515e8de99a349a223b0e207fb9edcab5dbc49370cb47b036",
+      "bytes": 83603
+    },
+    "before/compact.png": {
+      "sha256": "65f3ab2a2f7da07edc5924ffe59b9e277d0f98cc1fd9a3b79b6b37c99c7704cf",
+      "bytes": 87694
+    },
+    "after/workload.png": {
+      "sha256": "f0bb943288f1585cbbb6b7a1eb6be9a6f43649b21f9b4120320752118486cd0a",
+      "bytes": 74798
+    },
+    "after/environment.png": {
+      "sha256": "d99060ea1f77289641ec24ef0312304f78bc21fd756091cbe72e6bbf9cda85d4",
+      "bytes": 74526
+    },
+    "after/ready.png": {
+      "sha256": "bdc0ebe4db29aa760d6209aaa22694a198f9ea45970a63a7cad84bf1d866cc23",
+      "bytes": 81036
+    },
+    "after/review.png": {
+      "sha256": "90d8c7f9a6c56709f2345a6f1fa50f4a6b7bfdead2f839bcfdcca52cc5ed5fd4",
+      "bytes": 35406
+    },
+    "after/editor.png": {
+      "sha256": "3bf42beeda4f912e696d565ec4aba25c1125b52580478b53f8dc887ed6bababe",
+      "bytes": 15886
+    },
+    "after/builtin.png": {
+      "sha256": "f60e3c6fa353b04e9584825a71553dfd198b82298c9592db35e5d14b95ddd6ad",
+      "bytes": 76528
+    },
+    "after/submitted.png": {
+      "sha256": "d52ff53e560aaabd9ab7276eac537978a7a50b23ce6fb7c4fead082fbbf93a62",
+      "bytes": 29247
+    },
+    "after/waiting.png": {
+      "sha256": "b4cfdc425936184715b9c6af5bece32b8d0a3d8353614f849e265c60d6877297",
+      "bytes": 81057
+    },
+    "after/dark.png": {
+      "sha256": "42784f0ad3d469cc8ecb1ff4d37b88323f64458e5e661d95c5507d23d0c5922d",
+      "bytes": 82382
+    },
+    "after/compact.png": {
+      "sha256": "8a6eaf719611f820057f617e68157a7164fbe363d72c9eff26404fcaada3a0a1",
+      "bytes": 98872
+    },
+    "comparisons/workload.png": {
+      "sha256": "1b33e8a9087925eba3db251c5b36811aa7b5f45f56b5399cd5b68a7b98fdf867",
+      "bytes": 194929
+    },
+    "comparisons/environment.png": {
+      "sha256": "2334d0f7c2f6551405bd140b3d8207bad558ee6b2a0e282643e1297ae9a4a05d",
+      "bytes": 193804
+    },
+    "comparisons/ready.png": {
+      "sha256": "96517e17441f3b53da9c860a32fc3f30a53463126333a99492c6b8761343853a",
+      "bytes": 242544
+    },
+    "comparisons/review.png": {
+      "sha256": "6002b06b82cc501f710df52b1b424146000c855eb93b68d44f21b18bdaaeb36f",
+      "bytes": 90146
+    },
+    "comparisons/editor.png": {
+      "sha256": "5dd79ac15d9600be9f094c9fb7bc30b2a828f2410c60e2b1553bb007de515207",
+      "bytes": 56235
+    },
+    "comparisons/builtin.png": {
+      "sha256": "19db30a04a520a2deca5f5248ae5ada8255aaad2c6220001374bcf01c06b0b39",
+      "bytes": 206233
+    },
+    "comparisons/submitted.png": {
+      "sha256": "17ababf9f28c4a09a75d3bec407770bfa5d4b6eb621076f2229c71dedf06bd18",
+      "bytes": 172685
+    },
+    "comparisons/waiting.png": {
+      "sha256": "b763a6b10e4f64aec16183a639edd6f5fccda8f5acf4185ca50f9d3b22d506e9",
+      "bytes": 209738
+    },
+    "comparisons/dark.png": {
+      "sha256": "7a53f8ad513a3bf77f2b6025a058c312c3675c366fa19f70948ad4651f890c58",
+      "bytes": 252885
+    },
+    "comparisons/compact.png": {
+      "sha256": "4a58114e592f4b4528d93aefd66af5311fcc719131a337a6c804e66f62fd3123",
+      "bytes": 223970
+    }
+  }
+}
