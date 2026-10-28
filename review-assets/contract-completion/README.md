@@ -2,7 +2,7 @@
 
 Matching screenshots of the real React/Carbon screens with synthetic users, builds, API responses and Electron IPC. No central backend actions or native contract writes were performed.
 
-Before: public `main` at `ba21271970bcf4ca3d7399d0855a0dc8253a8c12`. After: `1c61b767edf8b7517604fe63012e55c4296bfe19` on `fix/contract-completion-carbon`. The compact screenshots use a 1024px desktop viewport; the dark screenshot uses Carbon `g100`.
+Before: public `main` at `ba21271970bcf4ca3d7399d0855a0dc8253a8c12`. After: `6fc47d73deb9f858aeb95e9e5f53f00216b89bf1` on `fix/contract-completion-carbon`. The compact screenshots use a 1024px desktop viewport; the dark screenshot uses Carbon `g100`.
 
 The images live on a separate documentation branch and are excluded from the implementation PR. `manifest.json` records image dimensions and SHA-256 hashes.
 
