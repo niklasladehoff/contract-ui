@@ -19,7 +19,7 @@ limitations under the License.
 
 Representative states captured from the actual React/Carbon app in isolated Electron profiles using deterministic local API fixtures, not a live production backend. All images use a 1600 × 1000 viewport, white theme, the same example identity and workload. Public disposable certificate data is used; no private keys or real credentials are included.
 
-Before: public UI main `2dfae92`. After: the contract-input feature; the original matched images use `fc952af`,. Capture metadata records the fixtures, request paths and checks. Cryptographic correctness is verified separately by the real backend/API integration tests.
+Before: public UI main `2dfae92`. After: the contract-input feature; the original matched images use `fc952af`. Capture metadata records the fixtures, request paths and checks. Cryptographic correctness is verified separately by the real backend/API integration tests.
 
 | State | Before | After |
 |---|---|---|
