@@ -49,3 +49,19 @@ motion; the GIF records the animated Analytics state in the app.
 - 390px layout fits its loading state; image is decorative and operation text uses a polite status region.
 - All 120 merge orders with PRs #154–#157 merge without manual conflict resolution at the recorded heads.
 - New SVG/component/style files carry the IBM Apache-2.0 header. Dependencies and Electron crypto are unchanged.
+
+## Command palette correction
+
+The existing loading-states PR also fixes the command palette stylesheet that
+was nested inside the keyboard-help selector and a reduced-motion media query.
+The palette now uses an independently imported Carbon stylesheet, compact command
+rows and an accessible search/listbox interaction.
+
+These captures show IBM main `b34cabe` before and PR head `f5cdfd8` after, using
+normal motion and synthetic backend/IPC fixtures. The four images cover the
+Carbon white and g100 themes. No live accounts or backend secrets are present.
+
+| Theme | Before | After |
+| --- | --- | --- |
+| White | ![Before command palette](command-palette-white-before.png) | ![After command palette](command-palette-white-after.png) |
+| G100 | ![Before dark command palette](command-palette-g100-before.png) | ![After dark command palette](command-palette-g100-after.png) |
