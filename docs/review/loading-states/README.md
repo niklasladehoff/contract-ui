@@ -1,11 +1,12 @@
 # Contextual loading states — visual review
 
 Baseline: IBM `main` at `b34cabe785a230b3a2df4efb4e7dd90138d0cd38`.
-Implementation: `c1c361d8ad8cab3a8f53239343c8224e5046de5c`.
+Implementation: `5645a8378220982f5825a6a90cc9e2a96ab78ab8`.
 
 These captures use the real React/Carbon components with synthetic backend and
 Electron IPC fixtures. Requests are deliberately delayed to show pending states.
-They contain no production accounts, credentials or contracts. PNGs use reduced
+They contain no production accounts, credentials or contracts. Build Management,
+User Management and System Logs retain Carbon table skeletons. PNGs use reduced
 motion; the GIF records the animated Analytics state in the app.
 
 | Area | Before | After |
@@ -38,6 +39,8 @@ motion; the GIF records the animated Analytics state in the app.
 
 - `npm run build` and `git diff --check` pass. No test runner exists in this repository.
 - Delayed requests show activity and completed requests remove it.
+- Build Management, User Management and System Logs show native Carbon table
+  skeletons while pending; no SVG replaces those table layouts.
 - Failed login, password, template and signing-key operations clear activity and allow retry.
 - Finalisation and export complete successfully; pending transaction actions stay disabled.
 - Configuration hydration completes on success and read failure; startup has no fake percentage.
