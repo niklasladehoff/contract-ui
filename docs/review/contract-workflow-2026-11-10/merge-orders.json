@@ -1,0 +1,228 @@
+{
+  "base": "b34cabe785a230b3a2df4efb4e7dd90138d0cd38",
+  "heads": {
+    "feat/compose-workload-import": "a40da665a2b2dcdf4d251245a42638291c0801ad",
+    "feat/build-certificate-reuse": "bfe5cf57a25fafedb944f2b2054f25c9981c2e03",
+    "feat/build-role-handoff": "426a09cd11cba644fd3f4bbcd26d22badd5fa32f",
+    "feat/contract-input-guidance": "ececd94ed5c1670756da9ba20869f576f2ee4417"
+  },
+  "orders": [
+    {
+      "order": [
+        "feat/compose-workload-import",
+        "feat/build-certificate-reuse",
+        "feat/build-role-handoff",
+        "feat/contract-input-guidance"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/compose-workload-import",
+        "feat/build-certificate-reuse",
+        "feat/contract-input-guidance",
+        "feat/build-role-handoff"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/compose-workload-import",
+        "feat/build-role-handoff",
+        "feat/build-certificate-reuse",
+        "feat/contract-input-guidance"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/compose-workload-import",
+        "feat/build-role-handoff",
+        "feat/contract-input-guidance",
+        "feat/build-certificate-reuse"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/compose-workload-import",
+        "feat/contract-input-guidance",
+        "feat/build-certificate-reuse",
+        "feat/build-role-handoff"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/compose-workload-import",
+        "feat/contract-input-guidance",
+        "feat/build-role-handoff",
+        "feat/build-certificate-reuse"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/build-certificate-reuse",
+        "feat/compose-workload-import",
+        "feat/build-role-handoff",
+        "feat/contract-input-guidance"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/build-certificate-reuse",
+        "feat/compose-workload-import",
+        "feat/contract-input-guidance",
+        "feat/build-role-handoff"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/build-certificate-reuse",
+        "feat/build-role-handoff",
+        "feat/compose-workload-import",
+        "feat/contract-input-guidance"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/build-certificate-reuse",
+        "feat/build-role-handoff",
+        "feat/contract-input-guidance",
+        "feat/compose-workload-import"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/build-certificate-reuse",
+        "feat/contract-input-guidance",
+        "feat/compose-workload-import",
+        "feat/build-role-handoff"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/build-certificate-reuse",
+        "feat/contract-input-guidance",
+        "feat/build-role-handoff",
+        "feat/compose-workload-import"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/build-role-handoff",
+        "feat/compose-workload-import",
+        "feat/build-certificate-reuse",
+        "feat/contract-input-guidance"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/build-role-handoff",
+        "feat/compose-workload-import",
+        "feat/contract-input-guidance",
+        "feat/build-certificate-reuse"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/build-role-handoff",
+        "feat/build-certificate-reuse",
+        "feat/compose-workload-import",
+        "feat/contract-input-guidance"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/build-role-handoff",
+        "feat/build-certificate-reuse",
+        "feat/contract-input-guidance",
+        "feat/compose-workload-import"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/build-role-handoff",
+        "feat/contract-input-guidance",
+        "feat/compose-workload-import",
+        "feat/build-certificate-reuse"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/build-role-handoff",
+        "feat/contract-input-guidance",
+        "feat/build-certificate-reuse",
+        "feat/compose-workload-import"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/contract-input-guidance",
+        "feat/compose-workload-import",
+        "feat/build-certificate-reuse",
+        "feat/build-role-handoff"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/contract-input-guidance",
+        "feat/compose-workload-import",
+        "feat/build-role-handoff",
+        "feat/build-certificate-reuse"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/contract-input-guidance",
+        "feat/build-certificate-reuse",
+        "feat/compose-workload-import",
+        "feat/build-role-handoff"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/contract-input-guidance",
+        "feat/build-certificate-reuse",
+        "feat/build-role-handoff",
+        "feat/compose-workload-import"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/contract-input-guidance",
+        "feat/build-role-handoff",
+        "feat/compose-workload-import",
+        "feat/build-certificate-reuse"
+      ],
+      "clean": true
+    },
+    {
+      "order": [
+        "feat/contract-input-guidance",
+        "feat/build-role-handoff",
+        "feat/build-certificate-reuse",
+        "feat/compose-workload-import"
+      ],
+      "clean": true
+    }
+  ],
+  "conflicts": []
+}
