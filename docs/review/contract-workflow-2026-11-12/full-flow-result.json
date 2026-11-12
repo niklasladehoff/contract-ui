@@ -1,0 +1,1035 @@
+{
+  "success": true,
+  "build": "Two-volume complete verification",
+  "volumes": 2,
+  "normalizedRegistrationAndFinalization": true,
+  "devices": [
+    {
+      "name": "admin",
+      "errors": [],
+      "requests": [
+        {
+          "method": "GET",
+          "path": "/health",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/users/92a49daa-413f-40e0-962c-6a64371e3ddc/public-keys",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/users",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/users",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "POST",
+          "path": "/builds",
+          "status": 201,
+          "signed": true,
+          "fingerprint": "e6d5716c02f0e152112f3406f3951177d7ecd85004f2e5cea4b0469b4b08004e"
+        },
+        {
+          "method": "GET",
+          "path": "/roles",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "POST",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/assignments",
+          "status": 201,
+          "signed": true,
+          "fingerprint": "e6d5716c02f0e152112f3406f3951177d7ecd85004f2e5cea4b0469b4b08004e"
+        },
+        {
+          "method": "POST",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/assignments",
+          "status": 201,
+          "signed": true,
+          "fingerprint": "e6d5716c02f0e152112f3406f3951177d7ecd85004f2e5cea4b0469b4b08004e"
+        },
+        {
+          "method": "POST",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/assignments",
+          "status": 201,
+          "signed": true,
+          "fingerprint": "e6d5716c02f0e152112f3406f3951177d7ecd85004f2e5cea4b0469b4b08004e"
+        },
+        {
+          "method": "POST",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/assignments",
+          "status": 201,
+          "signed": true,
+          "fingerprint": "e6d5716c02f0e152112f3406f3951177d7ecd85004f2e5cea4b0469b4b08004e"
+        },
+        {
+          "method": "GET",
+          "path": "/builds",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/health",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        }
+      ]
+    },
+    {
+      "name": "auditor",
+      "errors": [],
+      "requests": [
+        {
+          "method": "GET",
+          "path": "/users/e89df828-fb8f-4bf9-9a34-f7d7d8ec84cd/public-keys",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/health",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/users",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/users",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/assignments",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/sections",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/sections",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/assignments",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/attestation/status",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/attestation/status",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "POST",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/keys/signing",
+          "status": 201,
+          "signed": true,
+          "fingerprint": "c88e0dbd658a5d900654e677cdf17e02dc66cd0b507711b795490ce435e6d02d",
+          "buildSecretTrimmed": true
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/health",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/users/e89df828-fb8f-4bf9-9a34-f7d7d8ec84cd/public-keys",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/users",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/users",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/sections",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/assignments",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/attestation/status",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/assignments",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/sections",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/attestation/status",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/health",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "POST",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/keys/attestation",
+          "status": 201,
+          "signed": true,
+          "fingerprint": "c88e0dbd658a5d900654e677cdf17e02dc66cd0b507711b795490ce435e6d02d",
+          "buildSecretTrimmed": true
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "POST",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/v2/finalize",
+          "status": 200,
+          "signed": true,
+          "fingerprint": "c88e0dbd658a5d900654e677cdf17e02dc66cd0b507711b795490ce435e6d02d",
+          "buildSecretTrimmed": true
+        }
+      ]
+    },
+    {
+      "name": "provider",
+      "errors": [],
+      "requests": [
+        {
+          "method": "GET",
+          "path": "/health",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/users/bc290d22-ad07-4fd7-bd3e-0448e350a726/public-keys",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/users",
+          "status": 403,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/users",
+          "status": 403,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/assignments",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/sections",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/assignments",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/sections",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/sections",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/sections",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "POST",
+          "path": "/v2/contract-validate",
+          "status": 200,
+          "signed": true,
+          "fingerprint": "a55a3301bbff6fe977d7f581deefafbb5c125aa9309b65970076fc8fafcd594f"
+        },
+        {
+          "method": "POST",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/v2/sections/workload",
+          "status": 201,
+          "signed": true,
+          "fingerprint": "a55a3301bbff6fe977d7f581deefafbb5c125aa9309b65970076fc8fafcd594f"
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/sections",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/health",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        }
+      ]
+    },
+    {
+      "name": "owner",
+      "errors": [],
+      "requests": [
+        {
+          "method": "GET",
+          "path": "/health",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/users/f0b53821-5c71-4d8f-8ce3-a106fb7bdaba/public-keys",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/users",
+          "status": 403,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/users",
+          "status": 403,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/sections",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/assignments",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/assignments",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/attestation/status",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/sections",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/sections",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/attestation/status",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/sections",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "POST",
+          "path": "/v2/contract-validate",
+          "status": 200,
+          "signed": true,
+          "fingerprint": "903a3614444d914a78710d60edab73e01cccb250c189299eb264e558ecebc764"
+        },
+        {
+          "method": "POST",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/v2/sections/environment",
+          "status": 201,
+          "signed": true,
+          "fingerprint": "903a3614444d914a78710d60edab73e01cccb250c189299eb264e558ecebc764"
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/sections",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        }
+      ]
+    },
+    {
+      "name": "operator",
+      "errors": [],
+      "requests": [
+        {
+          "method": "GET",
+          "path": "/health",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/users/6e943d32-7d2a-4185-a2ff-ac18104eb832/public-keys",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/users",
+          "status": 403,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/users",
+          "status": 403,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/assignments",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/sections",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/assignments",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/attestation/status",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/sections",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/attestation/status",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/audit",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/export",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "POST",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/acknowledge-download",
+          "status": 204,
+          "signed": true,
+          "fingerprint": "568c1a86fdc31a29ed56fb76d16ae969b2c6eafab5d90c715beb5b76fa003327"
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/verify-contract",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/verify-contract",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        },
+        {
+          "method": "GET",
+          "path": "/builds/78c92bec-7d46-40d4-a96a-03fcf08e719c/verify",
+          "status": 200,
+          "signed": false,
+          "fingerprint": null
+        }
+      ]
+    }
+  ]
+}

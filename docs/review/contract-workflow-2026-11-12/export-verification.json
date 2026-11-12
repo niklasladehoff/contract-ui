@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "buildID": "78c92bec-7d46-40d4-a96a-03fcf08e719c",
+  "state": "CONTRACT_DOWNLOADED",
+  "workloadDecrypts": true,
+  "environmentDecrypts": true,
+  "attestationPublicKeyDecrypts": true,
+  "volumeCount": 2,
+  "exactSeeds": true,
+  "composeArchiveIntact": true,
+  "signatureValid": true,
+  "tamperingRejected": true,
+  "osKeyStorage": "isolated AES-GCM test adapter; OS keychain integration not exercised",
+  "guestDeployment": false
+}
