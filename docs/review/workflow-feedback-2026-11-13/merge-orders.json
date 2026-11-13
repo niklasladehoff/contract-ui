@@ -1,0 +1,86 @@
+[
+  {
+    "order": [
+      "feat/workload-import-batches",
+      "fix/attestation-upload-state",
+      "fix/submission-receipts"
+    ],
+    "tree": "c795eb0d2df1c58e760e7c67585d0882838437b5",
+    "conflictFree": true,
+    "sourceMatchesVerifiedIntegration": true,
+    "documentationDifferences": [
+      "README.md",
+      "docs/compose-import.md"
+    ]
+  },
+  {
+    "order": [
+      "feat/workload-import-batches",
+      "fix/submission-receipts",
+      "fix/attestation-upload-state"
+    ],
+    "tree": "c795eb0d2df1c58e760e7c67585d0882838437b5",
+    "conflictFree": true,
+    "sourceMatchesVerifiedIntegration": true,
+    "documentationDifferences": [
+      "README.md",
+      "docs/compose-import.md"
+    ]
+  },
+  {
+    "order": [
+      "fix/attestation-upload-state",
+      "feat/workload-import-batches",
+      "fix/submission-receipts"
+    ],
+    "tree": "c795eb0d2df1c58e760e7c67585d0882838437b5",
+    "conflictFree": true,
+    "sourceMatchesVerifiedIntegration": true,
+    "documentationDifferences": [
+      "README.md",
+      "docs/compose-import.md"
+    ]
+  },
+  {
+    "order": [
+      "fix/attestation-upload-state",
+      "fix/submission-receipts",
+      "feat/workload-import-batches"
+    ],
+    "tree": "c795eb0d2df1c58e760e7c67585d0882838437b5",
+    "conflictFree": true,
+    "sourceMatchesVerifiedIntegration": true,
+    "documentationDifferences": [
+      "README.md",
+      "docs/compose-import.md"
+    ]
+  },
+  {
+    "order": [
+      "fix/submission-receipts",
+      "feat/workload-import-batches",
+      "fix/attestation-upload-state"
+    ],
+    "tree": "c795eb0d2df1c58e760e7c67585d0882838437b5",
+    "conflictFree": true,
+    "sourceMatchesVerifiedIntegration": true,
+    "documentationDifferences": [
+      "README.md",
+      "docs/compose-import.md"
+    ]
+  },
+  {
+    "order": [
+      "fix/submission-receipts",
+      "fix/attestation-upload-state",
+      "feat/workload-import-batches"
+    ],
+    "tree": "c795eb0d2df1c58e760e7c67585d0882838437b5",
+    "conflictFree": true,
+    "sourceMatchesVerifiedIntegration": true,
+    "documentationDifferences": [
+      "README.md",
+      "docs/compose-import.md"
+    ]
+  }
+]

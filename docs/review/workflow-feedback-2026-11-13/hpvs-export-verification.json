@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "buildID": "befaa4f1-b147-48a4-9ffa-66982e221120",
+  "state": "CONTRACT_DOWNLOADED",
+  "hpvsEnvelopeFields": 3,
+  "realCertificateFormsVerified": 3,
+  "signedMutations": 13,
+  "signatureValid": true,
+  "tamperingRejected": true,
+  "guestDeployment": false,
+  "realRuntimePrivateKeyDecryption": false
+}

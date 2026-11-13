@@ -1,0 +1,56 @@
+{
+  "uiBase": "fffc60e0f5690b968604bb02fafede8e90b81171",
+  "backendBase": "0ad049a052b37ae96d3f9106d5661236214e00eb",
+  "heads": {
+    "imports": "886b34b7f7314b064cb132c24580f372ebf52ef0",
+    "attestation": "28d952b5940dc5cdd36edd73596ad18b2e19cbb4",
+    "receipts": "b5638d142f1711e1542490b61ba522cff0330c12",
+    "backend": "1de6b46419fc88b4990fbb6450c71cf88fcd35da"
+  },
+  "combinedFullFlowUi": "0dbe32a",
+  "independentSourceEquality": true,
+  "nodeTests": 23,
+  "helperTests": {
+    "imports": 92,
+    "attestation": 85,
+    "receipts": 85
+  },
+  "builds": "all three UI branches passed independently",
+  "backend": "go test -race -count=1 ./... with disposable PostgreSQL, go vet ./..., go build ./... passed",
+  "localVersions": {
+    "node": "26.10.0",
+    "npm": "11.19.1",
+    "electronTestBinary": "44.7.2",
+    "go": "1.27.1",
+    "macOS": "27.0.1"
+  },
+  "screenshots": [
+    "before-import-g100.png",
+    "after-import-g100.png",
+    "before-import-white.png",
+    "after-import-white.png",
+    "before-environment-entry.png",
+    "after-environment-entry.png",
+    "after-environment-g100.png",
+    "after-environment-white.png",
+    "before-attestation-spacing-g100.png",
+    "after-attestation-spacing-g100.png",
+    "before-attestation-spacing-white.png",
+    "after-attestation-spacing-white.png",
+    "after-attestation-upload-g100.png",
+    "after-attestation-upload-white.png",
+    "before-evidence-removal.png",
+    "after-evidence-removal.png",
+    "before-receipt-workload-g100.png",
+    "after-receipt-workload-g100.png",
+    "before-receipt-environment-g100.png",
+    "after-receipt-environment-g100.png",
+    "before-receipt-workload-white.png",
+    "after-receipt-workload-white.png",
+    "after-receipt-environment-white.png",
+    "after-receipt-390.png",
+    "after-receipt-720.png",
+    "before-backend-hpvs.png",
+    "after-backend-hpvs.png"
+  ]
+}

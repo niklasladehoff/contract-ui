@@ -1,0 +1,9 @@
+{
+  "multipleUpload": true,
+  "removeAndReAdd": true,
+  "removeAllDisablesReview": true,
+  "podmanResources": true,
+  "environmentVolumes": true,
+  "environmentSettingsPreserved": true,
+  "narrowModalNoOverflow": true
+}

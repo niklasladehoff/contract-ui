@@ -1,0 +1,76 @@
+[
+  {
+    "theme": "white",
+    "section": "workload",
+    "before": true,
+    "height": 333.953125,
+    "copyVerified": false,
+    "previewVerified": false
+  },
+  {
+    "theme": "white",
+    "section": "workload",
+    "before": false,
+    "height": 266.96875,
+    "copyVerified": true,
+    "previewVerified": true
+  },
+  {
+    "theme": "white",
+    "section": "environment",
+    "before": true,
+    "height": 333.953125,
+    "copyVerified": false,
+    "previewVerified": false
+  },
+  {
+    "theme": "white",
+    "section": "environment",
+    "before": false,
+    "height": 266.96875,
+    "copyVerified": true,
+    "previewVerified": true
+  },
+  {
+    "theme": "g100",
+    "section": "workload",
+    "before": true,
+    "height": 333.953125,
+    "copyVerified": false,
+    "previewVerified": false
+  },
+  {
+    "theme": "g100",
+    "section": "workload",
+    "before": false,
+    "height": 266.96875,
+    "copyVerified": true,
+    "previewVerified": true
+  },
+  {
+    "theme": "g100",
+    "section": "environment",
+    "before": true,
+    "height": 333.953125,
+    "copyVerified": false,
+    "previewVerified": false
+  },
+  {
+    "theme": "g100",
+    "section": "environment",
+    "before": false,
+    "height": 266.96875,
+    "copyVerified": true,
+    "previewVerified": true
+  },
+  {
+    "width": 720,
+    "noCardOverflow": true,
+    "noHashOverflow": true
+  },
+  {
+    "width": 390,
+    "noCardOverflow": true,
+    "noHashOverflow": true
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "helperColor_white": "rgb(82, 82, 82)",
+  "helperColor_g100": "rgb(198, 198, 198)",
+  "removeClearsCertificate": true,
+  "invalidUploadsRejected": true,
+  "validUploadCanBeConfirmed": true,
+  "pendingReadsCannotRestoreRemovedOrOlderCertificate": true,
+  "readFailureClearsCertificate": true,
+  "emptyCcrtVersionGapPixels": 16,
+  "beforeCcrtGap_white": 0,
+  "afterCcrtGap_white": 16,
+  "beforeCcrtGap_g100": 0,
+  "afterCcrtGap_g100": 16,
+  "evidenceWasEnabledAfterRemove": true,
+  "evidenceDisabledAfterRemove": true
+}
